@@ -1,0 +1,270 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Gmd;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class GmdSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        //
+        Gmd::truncate();
+        Gmd::insert([
+        [
+            'id' => 'GMD001',
+            'code' => 'TE',
+            'name' => 'Text',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-20 02:22:42',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD002',
+            'code' => 'AR',
+            'name' => 'Art Original',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD003',
+            'code' => 'CH',
+            'name' => 'Chart',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD004',
+            'code' => 'CO',
+            'name' => 'Computer Software',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD005',
+            'code' => 'DI',
+            'name' => 'Diorama',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD006',
+            'code' => 'FI',
+            'name' => 'Filmstrip',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD007',
+            'code' => 'FL',
+            'name' => 'Flash Card',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD008',
+            'code' => 'GA',
+            'name' => 'Game',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD009',
+            'code' => 'GL',
+            'name' => 'Globe',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD010',
+            'code' => 'KI',
+            'name' => 'Kit',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD011',
+            'code' => 'MA',
+            'name' => 'Map',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD012',
+            'code' => 'MI',
+            'name' => 'Microform',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD013',
+            'code' => 'MN',
+            'name' => 'Manuscript',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD014',
+            'code' => 'MO',
+            'name' => 'Model',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD015',
+            'code' => 'MP',
+            'name' => 'Motion Picture',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD016',
+            'code' => 'MS',
+            'name' => 'Microscope Slide',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD017',
+            'code' => 'MU',
+            'name' => 'Music',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD018',
+            'code' => 'PI',
+            'name' => 'Picture',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD019',
+            'code' => 'RE',
+            'name' => 'Realia',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD020',
+            'code' => 'SL',
+            'name' => 'Slide',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD021',
+            'code' => 'SO',
+            'name' => 'Sound Recording',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD022',
+            'code' => 'TD',
+            'name' => 'Technical Drawing',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD023',
+            'code' => 'TR',
+            'name' => 'Transparency',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD024',
+            'code' => 'VI',
+            'name' => 'Video Recording',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD025',
+            'code' => 'EQ',
+            'name' => 'Equipment',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD026',
+            'code' => 'CF',
+            'name' => 'Computer File',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD027',
+            'code' => 'CA',
+            'name' => 'Cartographic Material',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD028',
+            'code' => 'CD',
+            'name' => 'CD-ROM',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD029',
+            'code' => 'MV',
+            'name' => 'Multimedia',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD030',
+            'code' => 'ER',
+            'name' => 'Electronic Resource',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+        [
+            'id' => 'GMD031',
+            'code' => 'DVD',
+            'name' => 'Digital Versatile Disc',
+            'created_at' => '2024-02-08 00:00:00',
+            'updated_at' => '2024-02-08 00:00:00',
+            'deleted_at' => null,
+        ],
+
+    ]);
+    }
+}
