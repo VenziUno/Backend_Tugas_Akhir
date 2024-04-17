@@ -17,7 +17,7 @@ class BookDetailStatusRepository
 {
     function getData($status, $n, $page, $bookId)
     {
-        $query = BookDetailStatus::with('itemStatus','book')->where('books_id', $bookId);
+        $query = BookDetailStatus::with('itemStatus','book.author')->where('books_id', $bookId);
 
         $data = $query->orderBy('id', 'asc');
 

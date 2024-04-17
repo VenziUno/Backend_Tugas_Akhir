@@ -44,7 +44,7 @@ Route::get('/public/book/{id}', [BookController::class, 'getSingleBook']);
 Route::get('/public/borrowingdetail/member/{id}', [BorrowingDetailController::class, 'getBorrowingMember']);
 Route::get('/public/borrowingdetail/index/{bookId}', [BookDetailStatusController::class, 'getBook']);
 Route::get('/public/label', [LabelController::class, 'getLabel']);
-Route::get('/public/collectiontype', [CollectionTypeController::class, 'getCollectionType']);
+Route::get('/public/subject', [SubjectController::class, 'getSubject']);
 Route::get('/public/gmd', [GmdController::class, 'getGmd']);
 Route::get('/public/doclanguage', [DocLanguageController::class, 'getDocLanguage']);
 Route::post('/public/member/{nis}', [MemberController::class, 'resetPasswordMember']);
