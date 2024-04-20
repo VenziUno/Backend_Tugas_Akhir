@@ -26,6 +26,12 @@ return new class extends Migration
             $table->timestamps();
         });
 
+        Schema::create('rfid_datas', function (Blueprint $table) {
+            $table->id();
+            $table->string('rfid_data');
+            $table->timestamp('timestamp')->useCurrent();
+        });
+
         Schema::create('menus', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name',45);
@@ -230,6 +236,7 @@ return new class extends Migration
     {
         Schema::dropIfExists('roles');
         Schema::dropIfExists('config_rfids');
+        Schema::dropIfExists('rfid_datas');
         Schema::dropIfExists('users');
         Schema::dropIfExists('profiles');
         Schema::dropIfExists('menus');

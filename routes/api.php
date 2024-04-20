@@ -25,6 +25,7 @@ use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\SubjectController;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\MemberController;
+use App\Http\Controllers\RfidDataController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,6 +49,7 @@ Route::get('/public/subject', [SubjectController::class, 'getSubject']);
 Route::get('/public/gmd', [GmdController::class, 'getGmd']);
 Route::get('/public/doclanguage', [DocLanguageController::class, 'getDocLanguage']);
 Route::post('/public/member/{nis}', [MemberController::class, 'resetPasswordMember']);
+Route::get('/public/rfiddata', [RfidDataController::class, 'getRfidData']);
 
 
 Route::middleware(['auth:api'])->group(function () {

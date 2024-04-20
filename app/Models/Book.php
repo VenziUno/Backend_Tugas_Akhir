@@ -60,7 +60,7 @@ class Book extends Model
 
     public function label()
     {
-        return $this->belongsTo(label::class, 'labels_id');
+        return $this->belongsTo(Label::class, 'labels_id');
     }
 
     public function bookDetailStatus()
