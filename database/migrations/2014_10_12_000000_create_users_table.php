@@ -98,7 +98,7 @@ return new class extends Migration
             $table->string('class');
             $table->string('address');
             $table->string('portal_code');
-            $table->text('file');
+            $table->text('file')->nullable();
             $table->text('notes');
             $table->boolean('status');
             $table->unsignedBigInteger('users_id');
